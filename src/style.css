@@ -1,0 +1,167 @@
+.animationText{
+    font-size:2.5rem;
+    margin-bottom:30px;
+    color:#4fa15d;
+}
+@media (max-width:768px){
+    .animationText{
+        font-size:1.7rem;
+        margin:25px 0;
+    }
+}
+@media (max-width:565px){
+    .animationText{
+        font-size:1.5rem;
+        margin:20px 0;
+    }
+}
+
+.iconStyle:hover {
+    /* Add styles for the img elements when hovered */
+    transform: scale(1.2); /* Example: increase size on hover */
+  }
+  .para img{
+    height:230px;
+
+}
+
+  @media (max-width:600px){
+    .para img{
+        height:330px;
+    
+    }
+    .para p{
+        font-size:0.8rem;
+    }
+  }
+ 
+/* Glassmorphism effect for offcanvas */
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+  }
+  
+  /* Apply glassmorphism to offcanvas header */
+  .offcanvas-header {
+    background: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  /* Apply glassmorphism to offcanvas body */
+  .offcanvas-body {
+    padding: 15px;
+  }
+  
+  /* Apply glassmorphism to close button */
+  .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+  }
+  
+  /* Apply glassmorphism to toggle button */
+  .navbar-toggler {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 5px;
+  }
+  
+  /* Optional: Add hover effect for better interaction */
+  .navbar-toggler:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Optional: Add transition for smooth effect */
+  .navbar-toggler, .btn-close {
+    transition: background 0.3s ease-in-out, filter 0.3s ease-in-out;
+  }
+  .nav-link:hover {
+    font-size: 1.3em; /* Adjust the font size as per your preference */
+    color:white;
+  }
+  .nav-link {
+color:white;
+  }
+  .nav-link:active {
+    font-size: 1.1em; 
+    color:#c1e6c7;
+  }
+/* toggle icon css */
+.custom-navbar-toggler {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color:white;
+  }
+  
+  /* Styling for the icon inside the navbar toggler button */
+  .custom-navbar-icon {
+    box-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 40px #00f; /* Neon-like glow */
+  }
+  
+  /* Styling for the three lines inside the icon */
+  .custom-navbar-icon span {
+    /* background-color: #fff; */
+    display: block;
+    height: 2px;
+    width: 25px;
+    border-radius: 1px;
+    margin: 6px 0;
+    color:white;
+  }
+  .navbar .navbar-toggler-icon {
+    width: 24px; /* Adjust the width as needed */
+    height: 24px; /* Adjust the height as needed */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' height='21' viewBox='0 0 21 21' width='21'%3e%3cg fill='none' fill-rule='evenodd' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m4.5 6.5h12' fill='white'%3e%3c/path%3e%3cpath d='m4.498 10.5h11.997' fill='white'%3e%3c/path%3e%3cpath d='m4.5 14.5h11.995' fill='white'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");
+  }
+  .navbar-toggler {
+  outline: none;}
+  .card-text{
+    font-family: 'Figtree', sans-serif;
+  }
+  .custom-border {
+    border-left: 10px solid #7f6284;
+    border-bottom: 10px solid #7f6284; 
+  }
+  
+  @media(max-width:768px){
+    .custom-border {
+        border-left: 5px solid #7f6284;
+        border-bottom: 5px solid #7f6284; 
+      }
+  }
+  /* swiper css */
+  /* App.css */
+.my-container {
+    height: 128px;
+
+  }
+  
+  .mySwiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill; /* Ensures the image covers the entire slide */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .swiper-image {
+    height: 100%; /* Set a fixed height for the images within the Swiper container */
+    object-fit: fill; /* Ensure that the images cover the entire slide */
+  }
+  .text-decoration-none {
+    text-decoration: none !important;
+  }
+  /* Add this to your stylesheet or component style */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black color */
+}
