@@ -21,13 +21,18 @@ www.orthocarebh.org using HTML, CSS, and Bootstrap.
 Ensured the site's responsiveness and user-friendly
 design for optimal user experience." demo="https://orthocarebahrain.netlify.app/"/>    </div> */}
 <div className="col-12 col-md-6">
-    <Project image="./pswd.JPG"  title="PASSWORD RESET " description="Securely reset passwords with our MERN-based app featuring JWT token authentication. Enjoy seamless user experience and robust data protection. Effortlessly recover access from any device with our intuitive interface." demo="https://password-reset-benasir.netlify.app/login"/>    </div>
+    <Project image="./pswd.JPG"  title="PASSWORD RESET " description="Securely reset passwords with our MERN-based app featuring JWT token authentication. Enjoy a seamless user experience and robust data protection as you navigate through our intuitive interface. Our app ensures effortless recovery of access from any device, providing you with peace of mind and convenience." demo="https://password-reset-benasir.netlify.app/login"
+    frontend="https://github.com/Benasir-93/password-Reset-Frontend.git" 
+    backend="https://github.com/Benasir-93/password-Reset-Backend.git" />    </div>
 
 
 <div className="col-12 col-md-6">
 
     <Project image="./mrithu.JPG"  title="MRITHU PHARMACY WEBSITE" description="Spearheaded the front-end development for a leading pharmacy based in Bahrain.Transformed design concepts into a visually appealingand user-friendly website using cutting-edge front-
-end technologies such as HTML, CSS, and JavaScript. Implemented responsive design principles, ensuring seamless user experiences across various devices." demo="http://www.mrithupharmacy.com/"/>    </div>
+end technologies such as HTML, CSS, and JavaScript. Implemented responsive design principles, ensuring seamless user experiences across various devices." demo="http://www.mrithupharmacy.com/"
+frontend="" 
+backend="" /> 
+   </div>
 
     
     <div className="col-12 col-md-6">
@@ -36,7 +41,9 @@ using the MERN stack—MongoDB, Express.js, React.js, and
 Node.js. Collaborated on seamless integration, implementing
 innovative features, and delivered a high-quality, fully
 functional portfolio showcasing expertise in both frontend
-and backend development." demo="https://dynamicportfolio.netlify.app/,"  />    </div>
+and backend development." demo="https://dynamicportfolio.netlify.app/" 
+frontend="https://github.com/Benasir-93/dynamic-frontend.git" 
+backend="https://github.com/Benasir-93/dynamicPortfolio-backend.git"  />    </div>
 
   
   <div className="col-12 col-md-6">
@@ -46,7 +53,8 @@ static site includes a form where, upon user submission,
 automated emails are generated for both the user and the
 site owner. This project demonstrates my proficiency in
 developing dynamic web solutions with backend
-functionality and interactive frontend features." demo="https://5waymart.netlify.app/" />
+functionality and interactive frontend features." demo="https://5waymart.netlify.app/"   frontend="https://github.com/Benasir-93/5way-frontend.git" 
+backend="https://github.com/Benasir-93/5way-backend.git"  />
     </div>
     </div>
 

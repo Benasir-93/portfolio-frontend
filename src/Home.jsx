@@ -36,23 +36,20 @@ function Home() {
   repeat={Infinity}
 />
 {/* ================================ */}
-<span className='fw-4 '>
-<Link to="/contact">
-  {/* <button className=' mb-sm-1 mx-2 btn btn-outline-dark '>Contact Me</button> */}
-  <button className={`mb-sm-1 mx-2 btn ${theme === 'dark' ? 'btn-outline-light' : 'btn-outline-dark'}`}>
-  Contact Me
-</button>
-</Link>
-
-<Link to="https://drive.google.com/file/d/1zSaJVH6wfizbit0poh6DacV7iQGbKdKs/view?usp=sharing" target="_blank">
-  {/* <button className='mx-2 btn btn-outline-dark'>View CV</button> */}
-  <button className={`mx-2 btn ${theme === 'dark' ? 'btn-outline-light' : 'btn-outline-dark'}`}>
-  View CV
-</button>
-
+<div className='d-flex fw-4'>
+  <Link to="/contact">
+    <button className={`mb-sm-1 mx-2 btn ${theme === 'dark' ? 'btn-outline-light' : 'btn-outline-dark'}`}>
+      Contact Me
+    </button>
   </Link>
+  <Link to="https://drive.google.com/file/d/13429DCsRuCRokyh48wqhN08KgeJAwGjJ/view?usp=sharing" target="_blank">
+    <button className={`mx-2 btn ${theme === 'dark' ? 'btn-outline-light' : 'btn-outline-dark'}`}>
+      View CV
+    </button>
+  </Link>
+</div>
 
-</span>  </div>
+ </div>
         </div>
       </div>
 
