@@ -42,7 +42,7 @@ function Home() {
       Contact Me
     </button>
   </Link>
-  <Link to="https://drive.google.com/file/d/13429DCsRuCRokyh48wqhN08KgeJAwGjJ/view?usp=sharing" target="_blank">
+  <Link to="https://drive.google.com/file/d/1hITz9m1kFrmZAPz4YoO7Jz3L7SM0fggC/view?usp=sharing" target="_blank">
     <button className={`mx-2 btn ${theme === 'dark' ? 'btn-outline-light' : 'btn-outline-dark'}`}>
       View CV
     </button>
