@@ -12,7 +12,52 @@ function Projects() {
 
 <div className="container mt-sm-5">
 <div className="row row-cols-1 row-cols-md-2 g-3">
+ {/* New Projects */}
+ <div className="col-12 col-md-6">
+            <Project
+              image="/5waysfze.JPG"
+              title="5WAYSFZE - Web Development And Digital Marketing Agency"
+              description="Developed a modern website for 5waysfze, a digital marketing and web development company based in the UAE, using React.js. The site features services like web design, graphic design, and digital marketing solutions. It offers a sleek, responsive design to effectively engage potential clients."
+              demo="https://5waysfze.com/"
+            />
+          </div>
 
+          <div className="col-12 col-md-6">
+            <Project
+              image="/angel-home.JPG"
+              title="New Angels's Bridal Studio - Karaikal"
+              description="Designed and developed a user-friendly website for New Angel's Bridal Studio, a beauty parlor in Karaikal, built with WordPress. The site showcases bridal makeup, hand makeup, and jewel rental services. It offers a clean, elegant design with easy navigation for clients to explore services"
+              demo="https://angelsbridalstudio.com/"
+            />
+          </div>
+
+          <div className="col-12 col-md-6">
+            <Project
+              image="/high.JPG"
+              title="High SoMeat General trading L.L.C - UAE"
+              description="Developed a professional website for High SoMeat General Trading L.L.C, located in the UAE, using WordPress. The site showcases their range of products, including frozen meats, skins & hides, and scraps. It offers a seamless browsing experience with detailed product information and easy navigation"
+              demo="https://highsomeat.com/"
+            />
+          </div>
+
+          <div className="col-12 col-md-6">
+            <Project
+              image="/almolabi1.JPG"
+              title="Almolabi Haj and Umrah - UAE"
+              description="Built a user-friendly website for Al Molabi Hajj and Umrah Services, located in the UAE, using WordPress. The site provides essential information and services for Hajj and Umrah pilgrims. It features a clean design and easy navigation to enhance the user experience."
+              demo="https://al-molabi-haj-and-umrah.netlify.app/"
+            />
+          </div> 
+
+          <div className="col-12 col-md-6">
+            <Project
+              image="/alminha.JPG"
+              title="Al Minha Technical Services L.L.C - UAE"
+              description="Developed a modern, responsive website for Al Minha Technical Services L.L.C, based in the UAE, using React.js. The site showcases their MEP (Mechanical, Electrical, and Plumbing) services with dynamic content and interactive elements. It offers a smooth user experience with fast load times and easy navigation."
+              demo="https://alminha-final.netlify.app/"
+            />
+          </div>
+          
 <div class="col-12 col-md-6">
     <Project image="./ortho.JPG"  title="ORTHOCARE WEBSITE" description="Replicated the frontend design of
 www.orthocarebh.org using HTML, CSS, and Bootstrap.

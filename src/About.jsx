@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-
+import Swiper from './components/Swiper'
 
 function About() {
   return (
@@ -23,7 +23,7 @@ function About() {
   </div>
 </div>
 {/* my skills */}
-<div className="container mt-5 w-75"  >
+{/* <div className="container mt-5 w-75"  >
   <h2 className='text-center mb-5 fs-1 text-decoration-underline' style={{color:"#4fa15d"}}  data-aos="zoom-in-down" data-aos-duration="1000">My Skills</h2>
   <div className="row mb-4">
     {Array.from({ length: 8 }).map((_, index) => (
@@ -37,6 +37,27 @@ function About() {
       </div>
     ))}
   </div>
+</div> */}
+{/* My Skills */}
+<div className="container mt-5 w-75">
+  <h2 className='text-center mb-5 fs-1 text-decoration-underline' style={{color:"#4fa15d"}} data-aos="zoom-in-down" data-aos-duration="1000">
+    My Skills
+  </h2>
+  <div className="row mb-4">
+    {Array.from({ length: 9 }).map((_, index) => (
+      <div key={index} className="col-lg-4 col-md-4 col-sm-6 mb-4">
+        <img
+          src={`./swiper/${index + 1}.png`}
+          className="img-fluid mx-auto d-block"
+          alt={`swiper ${index + 1}`}
+          style={{ maxWidth: '100%' }}
+        />
+      </div>
+    ))}
+  </div>
+  {/* my certificate */}
+<div className="contaner bg-light ">
+<Swiper/></div>
 </div>
 
 <Footer/>

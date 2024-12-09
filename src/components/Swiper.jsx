@@ -9,39 +9,39 @@ export default function App() {
  
     <div className="container bg-transparent my-container">
     <Swiper
-      slidesPerView={4}
+      slidesPerView={1}
       spaceBetween={20}
       autoplay={{
-        delay: 2000,
+        delay: 3000,
         disableOnInteraction: false,
       }}
       modules={[Autoplay]}
       className="mySwiper"
     >
       <SwiperSlide>
-        <img src="./swiper/html-5.png" className="img-fluid swiper-image" alt="" />
+        <img src="./certificate/1.png" className="img-fluid swiper-image" alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="./swiper/css-3.png" className="img-fluid swiper-image" alt="" />
+        <img src="./certificate/2.png" className="img-fluid swiper-image" alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="./swiper/js.png" className="img-fluid swiper-image" alt="" />
+        <img src="./certificate/3.png" className="img-fluid swiper-image" alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="./swiper/bootstrap.png" className="img-fluid swiper-image"  alt="" />
+        <img src="./certificate/4.png" className="img-fluid swiper-image"  alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="./swiper/library.png" className="img-fluid swiper-image"
+        <img src="./certificate/5.png" className="img-fluid swiper-image"
         alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="./swiper/mongodb.png" className="img-fluid swiper-image"  alt="" />
+        <img src="./certificate/6.png" className="img-fluid swiper-image"  alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="./swiper/nodejs.png" className="img-fluid swiper-image"  alt="" />
+        <img src="./certificate/7.png" className="img-fluid swiper-image"  alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="./swiper/mysql.png" className="img-fluid swiper-image"  alt="" />
+        <img src="./certificate/8.png" className="img-fluid swiper-image"  alt="" />
       </SwiperSlide>
     </Swiper>
   </div>

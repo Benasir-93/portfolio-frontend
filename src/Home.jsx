@@ -45,16 +45,27 @@ function Home() {
       </div>
 
       <div className="container-fluid mt-4 ">
-        <div className="card text-white para">
-      <img src="./l1.png" class="card-img" alt="" />
+        <div className="card text-dark para">
+      <img src="./newbg.png" class="card-img" alt="" />
 
       <div class="card-img-overlay" >
- <h2 className='text-center fw-bold mb-4' data-aos="zoom-in"  data-aos-duration="2000">Who I Am </h2>
-      <div className="container">
+ <h2 className='text-center fw-bold mb-5 display-4 stroke' style={{color:"#c28dbe"}} data-aos="zoom-in"  data-aos-duration="2000">Who I Am </h2>
+      {/* <div className="container">
       <p className='text-center lh-lg fw-bold ' data-aos="fade-up" data-aos-duration="2000">A passionate MERN stack developer with a love for coding and problem-solving. 
     I specialize in creating dynamic and responsive web applications using the latest technologies. 
     With a strong foundation in JavaScript, React, Node.js, and MongoDB, I bring creativity and dedication 
     to every project I work on.</p>
+      </div> */}
+      <div className="container">
+        <div className="col-9 mx-auto">
+      <p className='text-center lh-lg fw-bold ' data-aos="fade-up" data-aos-duration="2000">I am a certified MERN stack developer with a passion for crafting seamless, dynamic web applications and solving complex problems through code. With expertise in JavaScript, React, Node.js, and MongoDB, I specialize in delivering creative and user-focused solutions.</p></div>
+      <br />
+      <div className="col-9 mx-auto">
+
+      <p className='text-center lh-lg fw-bold ' data-aos="fade-up" data-aos-duration="2000">Beyond MERN, I have expanded my skill set to include building functional and visually appealing websites using WordPress, integrating my technical proficiency with intuitive design. My creative flair extends to Canva, where I design impactful visuals that elevate brand identity and engagement.</p></div><br />
+      <div className="col-9 mx-auto">
+      <p className='text-center lh-lg fw-bold ' data-aos="fade-up" data-aos-duration="2000">Driven by a love for learning and innovation, I bring versatility, dedication, and a commitment to excellence to every project I take on..</p></div>
+
       </div>
       </div>
       </div>
