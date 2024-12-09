@@ -25,9 +25,9 @@ function Home() {
           
          
 <TypeAnimation className='fw-bold animationText'
-  style={{ whiteSpace: 'pre-line', height: '130px', display: 'block' }}
+  style={{ whiteSpace: 'pre-line', height: '230px', display: 'block' }}
   sequence={[
-    `Hi All, I'm Benasir Begam\nMERN STACK DEVELOPER
+    `Hi All, I'm Benasir Begam\nMERN STACK DEVELOPER\nand I Create WordPress Solutions
 `, 1000, '',
   ]}
   repeat={Infinity}
