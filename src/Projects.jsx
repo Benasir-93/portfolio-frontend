@@ -77,7 +77,7 @@ using the MERN stack—MongoDB, Express.js, React.js, and
 Node.js. Collaborated on seamless integration, implementing
 innovative features, and delivered a high-quality, fully
 functional portfolio showcasing expertise in both frontend
-and backend development." demo="https://dynamicportfolio.netlify.app/,"  />    </div>
+and backend development." demo="https://dynamicportfolio.netlify.app/"  />    </div>
 
   
   <div class="col-12 col-md-6">
