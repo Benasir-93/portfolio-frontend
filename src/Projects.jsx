@@ -21,6 +21,14 @@ function Projects() {
               demo="https://5waysfze.com/"
             />
           </div>
+         <div className="col-12 col-md-6">
+  <Project
+    image="/sharjah.png" 
+    title="SHARJAH GIFTS - Customised Gifts on E-commerce in UAE"
+    description="This WordPress-powered e-commerce website is built using WooCommerce with a customised theme. Unlike the ordinary 'Add to Cart' systems, the site features a request method and a WhatsApp integration. Users can send bulk quotes seamlessly and, with just a click on the WhatsApp icon for any product, initiate a chat with product details auto-filled. This feature streamlines bulk inquiries and enhances the user experience for personalized gift shopping in the UAE."
+    demo="https://sharjahgifts.com/"
+  />
+</div>
 
           <div className="col-12 col-md-6">
             <Project
