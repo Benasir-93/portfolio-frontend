@@ -8,7 +8,8 @@ import { useNavigate } from 'react-router-dom';
 import ThankYouModal from './components/ThankYouModal';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import BackToTop from './components/BackToTop';
+import Whatsapp from './components/Whatsapp';
 
 
 
@@ -132,7 +133,8 @@ function Contact() {
   
       {/* Thank You Modal */}
       <ThankYouModal show={showModal} onClose={handleCloseModal} onHome={handleHomeRedirect} />
-
+<Whastapp/>
+  <BackToTop/>
   <Footer />
 </>
 
