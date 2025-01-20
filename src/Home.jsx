@@ -4,6 +4,8 @@ import { TypeAnimation } from 'react-type-animation';
 import Footer from './components/Footer';
 import './style.css'
 import { Link } from 'react-router-dom';
+import BackToTop from './components/BackToTop';
+import Whatsapp from './components/Whatsapp';
 
 function Home() {
   return (
@@ -70,6 +72,8 @@ function Home() {
       </div>
       </div>
       </div>
+         <Whatsapp />
+      <BackToTop />
       <Footer/>
     </>
   );
