@@ -17,7 +17,9 @@ function About() {
     <div class="col-md-8">
       <div class="card-body">
         <h3 class="card-title mb-4 text-center" style={{color:"#4fa15d"}}  data-aos="fade-right" data-aos-duration="1000">Who I Am</h3>
-        <p className="fw-medium text-muted">I'm a confident and passionate web developer specializing in JavaScript, with a focus on creating dynamic and interactive user interfaces using React. I have expertise in the entire MERN stack</p>
+        <p className="fw-medium text-muted">I'm a confident and passionate web developer specializing in JavaScript, with a focus on creating dynamic and interactive user interfaces using React. I have expertise in the entire MERN stack and am also skilled in WordPress development, crafting user-friendly and responsive websites tailored to meet diverse client needs.
+
+</p>
         <p class="fw-medium text-muted">
         With over two years of freelancing experience and completing the MERN Stack Development program at GUVI, I'm excited to connect and explore collaboration opportunities. Let's chat about how my skills can contribute to your projects. Feel free to reach out and start a conversation!</p>
       </div>
