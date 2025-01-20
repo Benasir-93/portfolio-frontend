@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Project from './components/Project'
+import BackToTop from './components/BackToTop';
+import Whatsapp from './components/Whatsapp';
 
 function Projects() {
   return (
@@ -102,6 +104,8 @@ functionality and interactive frontend features." demo="https://5waymart.netlify
 
 
   </div>
+  <Whatsapp/>
+  <BackToTop/>
 <Footer/>
 </>
     )
