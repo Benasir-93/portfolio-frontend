@@ -186,3 +186,7 @@ color:white;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black color */
 }
+.whatsapp-icon {
+  width: 65px; /* Adjust the size as needed */
+  height: 65px; /* Adjust the size as needed */
+}
