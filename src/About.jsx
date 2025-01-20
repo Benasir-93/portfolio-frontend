@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Swiper from './components/Swiper'
+import BackToTop from './components/BackToTop';
+import Whatsapp from './components/Whatsapp';
 
 function About() {
   return (
@@ -60,6 +62,8 @@ function About() {
 <Swiper/></div>
 </div>
 
+  <Whatsapp/>
+  <BackToTop/>
 <Footer/>
 </>  )
 }
