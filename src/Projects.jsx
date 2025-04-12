@@ -34,7 +34,7 @@ function Projects() {
 
     <div className="col-12 col-md-6">
             <Project
-              image="/angel-home.JPG"
+              image="/cres.JPG"
               title="Crescent Haj Service – Trichy, India"
               description=" Developed a clean and informative website for Crescent Haj Service, located in Trichy, India. The platform provides detailed Haj and Umrah package information, travel guidance, and essential pilgrimage updates, delivering a smooth and accessible experience for users in India."
               demo="https://crescenthajservice.com/"
@@ -43,7 +43,7 @@ function Projects() {
 
           <div className="col-12 col-md-6">
             <Project
-              image="/high.JPG"
+              image="/tour.JPG"
               title="ToursWeGo – Travel Agency in UAE"
               description=" Crafted a vibrant and user-friendly website for ToursWeGo, a travel and tourism agency based in the UAE. The site highlights domestic and international tour packages with easy navigation, online booking features, and engaging visuals to attract travelers and enhance the booking experience."
               demo="https://tourswego.com/"
