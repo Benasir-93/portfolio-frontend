@@ -38,7 +38,7 @@ function Home() {
 <span className='fw-4 '>
 <Link to="/contact"><button className=' mb-sm-1 mx-2 btn btn-outline-dark '>contact me</button></Link>
 
-<a href="./Benasir Begam - Resume.pdf" download><button className='mx-2 btn btn-outline-dark'>Download CV</button></a>
+<a href="./Benasir Begam - NewResume.pdf" download><button className='mx-2 btn btn-outline-dark'>Download CV</button></a>
 
 </span>       
 
