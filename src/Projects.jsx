@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Project from './components/Project'
 import BackToTop from './components/BackToTop';
-import Whatsapp from './components/Whatsapp';
+// import Whatsapp from './components/Whatsapp';
 
 function Projects() {
   return (
@@ -17,7 +17,7 @@ function Projects() {
  {/* New Projects */}
  <div className="col-12 col-md-6">
             <Project
-              image="/5waysfze.JPG"
+              image="/5ways.JPG"
               title="5WAYSFZE - Web Development And Digital Marketing Agency"
               description="Developed a modern website for 5waysfze, a digital marketing and web development company based in the UAE, using React.js. The site features services like web design, graphic design, and digital marketing solutions. It offers a sleek, responsive design to effectively engage potential clients."
               demo="https://5waysfze.com/"
@@ -108,20 +108,14 @@ and backend development." demo="https://dynamicportfolio.netlify.app/"  />    </
 
   
   <div class="col-12 col-md-6">
-    <Project image="./5way.JPG "  title="5way Website" description="Currently working on the 5way Website project, a recent
-client request. The
-static site includes a form where, upon user submission,
-automated emails are generated for both the user and the
-site owner. This project demonstrates my proficiency in
-developing dynamic web solutions with backend
-functionality and interactive frontend features." demo="https://5waymart.netlify.app/" />
+    <Project image="./md.JPG "  title="MD General Trading L.L.C – Somalia | UAE" description="Designed a modern website for MD General Trading L.L.C, a Somalia-based company operating in the UAE. The site showcases their import-export services, product offerings, and key trading sectors, ensuring smooth user experience and clear product navigation across regions." demo="https://mdgeneraltrd.com/" />
     </div>
     </div>
 
 
 
   </div>
-  <Whatsapp/>
+  {/* <Whatsapp/> */}
   <BackToTop/>
 <Footer/>
 </>
