@@ -85,24 +85,24 @@ function Projects() {
             />
           </div>
 
-          <div class="col-12 col-md-6">
+          <div className="col-12 col-md-6">
     <Project image="./cartylitics.png "  title="Cartylitics | UAE" description="Cartylitics is a demo project inspired by Grofee, built to digitally transform supermarkets with services like app integration, catalog management, and marketing automation." demo="https://cartlytics.5waysfze.com/" />
     </div>
           
-<div class="col-12 col-md-6">
+<div className="col-12 col-md-6">
     <Project image="./ortho.JPG"  title="ORTHOCARE WEBSITE" description="Replicated the frontend design of
 www.orthocarebh.org using HTML, CSS, and Bootstrap.
 Ensured the site's responsiveness and user-friendly
 design for optimal user experience." demo="https://orthocarebahrain.netlify.app/"/>    </div>
 
 
-<div class="col-12 col-md-6">
+<div className="col-12 col-md-6">
 
     <Project image="./mrithu.JPG"  title="MRITHU PHARMACY WEBSITE" description="Spearheaded the front-end development for a leading pharmacy based in Bahrain.Transformed design concepts into a visually appealingand user-friendly website using cutting-edge front-
 end technologies such as HTML, CSS, and JavaScript. Implemented responsive design principles, ensuring seamless user experiences across various devices." demo="http://www.mrithupharmacy.com/"/>    </div>
 
     
-    <div class="col-12 col-md-6">
+    <div className="col-12 col-md-6">
     <Project image="./dynamic.JPG "  title="Dynamic Portfolio With Export To PDF" description="Created a full-stack Dynamic Portfolio for GUVI certification
 using the MERN stack—MongoDB, Express.js, React.js, and
 Node.js. Collaborated on seamless integration, implementing
@@ -111,7 +111,7 @@ functional portfolio showcasing expertise in both frontend
 and backend development." demo="https://dynamicportfolio.netlify.app/"  />    </div>
 
   
-  <div class="col-12 col-md-6">
+  <div className="col-12 col-md-6">
     <Project image="./md.JPG "  title="MD General Trading L.L.C – Somalia | UAE" description="Designed a modern website for MD General Trading L.L.C, a Somalia-based company operating in the UAE. The site showcases their import-export services, product offerings, and key trading sectors, ensuring smooth user experience and clear product navigation across regions." demo="https://mdgeneraltrd.com/" />
     </div>
     </div>

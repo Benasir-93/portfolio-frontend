@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import './style.css'
 import { Link } from 'react-router-dom';
 import BackToTop from './components/BackToTop';
-import ProjectSlide from './components/projectSlide';
+import ProjectSlide from './components/ProjectSlide';
 import Whatsapp from './components/Whastapp';
 
 // import Whatsapp from './components/Whatsapp';
@@ -51,9 +51,9 @@ function Home() {
 
       <div className="container-fluid mt-4 ">
         <div className="card text-dark para">
-      <img src="./newbg.png" class="card-img" alt="" />
+      <img src="./newbg.png" className="card-img" alt="" />
 
-      <div class="card-img-overlay" >
+      <div className="card-img-overlay" >
  <h2 className='text-center fw-bold mb-5 display-4 stroke' style={{color:"#c28dbe"}} data-aos="zoom-in"  data-aos-duration="2000">Who I Am </h2>
       {/* <div className="container">
       <p className='text-center lh-lg fw-bold ' data-aos="fade-up" data-aos-duration="2000">A passionate MERN stack developer with a love for coding and problem-solving. 
