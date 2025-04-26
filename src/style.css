@@ -186,7 +186,20 @@ color:white;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black color */
 }
-.whatsapp-icon {
+/* .whatsapp-icon {
   width: 65px; /* Adjust the size as needed */
-  height: 65px; /* Adjust the size as needed */
-}
+  /* height: 65px; Adjust the size as needed */
+  .whatsapp-button {
+    position: fixed;
+    bottom: 20px; /* distance from bottom */
+    right: 20px;  /* distance from right */
+    z-index: 1000; /* stays on top of other elements */
+  }
+  
+  .whatsapp-icon {
+    width: 60px; /* adjust size if needed */
+    height: 60px;
+    cursor: pointer;
+  }
+  
+

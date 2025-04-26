@@ -3,7 +3,8 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Swiper from './components/Swiper'
 import BackToTop from './components/BackToTop';
-// import Whatsapp from './components/Whatsapp';
+import Whatsapp from './components/Whastapp';
+
 
 function About() {
   return (
@@ -17,11 +18,19 @@ function About() {
     <div class="col-md-8">
       <div class="card-body">
         <h3 class="card-title mb-4 text-center" style={{color:"#4fa15d"}}  data-aos="fade-right" data-aos-duration="1000">Who I Am</h3>
-        <p className="fw-medium text-muted">I'm a confident and passionate web developer specializing in JavaScript, with a focus on creating dynamic and interactive user interfaces using React. I have expertise in the entire MERN stack and am also skilled in WordPress development, crafting user-friendly and responsive websites tailored to meet diverse client needs.
+        {/* <p className="fw-medium text-muted">I'm a confident and passionate web developer specializing in JavaScript, with a focus on creating dynamic and interactive user interfaces using React. I have expertise in the entire MERN stack and am also skilled in WordPress development, crafting user-friendly and responsive websites tailored to meet diverse client needs.
 
 </p>
         <p class="fw-medium text-muted">
         With over two years of freelancing experience and completing the MERN Stack Development program at GUVI, I'm excited to connect and explore collaboration opportunities. Let's chat about how my skills can contribute to your projects. Feel free to reach out and start a conversation!</p>
+      </div> */}
+        <p className="fw-medium text-muted">I’m a confident and passionate WordPress Developer skilled at crafting user-friendly, responsive websites tailored to meet diverse client needs. I specialize in WordPress development, utilizing page builders like Elementor and customizing themes to deliver polished, professional websites.
+</p>
+        <p class="fw-medium text-muted">
+        With strong expertise in HTML, CSS, JavaScript, and React, I also have a certified background in the MERN stack — offering additional flexibility for dynamic web applications.
+
+With over two years of freelancing experience and professional training from GUVI, I’m excited to contribute to innovative projects and collaborate with dynamic teams.
+Let's connect and create something amazing together!</p>
       </div>
     </div>
   </div>
@@ -64,7 +73,7 @@ function About() {
 <Swiper/></div>
 </div>
 
-  {/* <Whatsapp/> */}
+  <Whatsapp/>
   <BackToTop/>
 <Footer/>
 </>  )

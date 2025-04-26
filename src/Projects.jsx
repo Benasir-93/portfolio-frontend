@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Project from './components/Project'
 import BackToTop from './components/BackToTop';
-// import Whatsapp from './components/Whatsapp';
+import Whatsapp from './components/Whastapp';
 
 function Projects() {
   return (
@@ -84,6 +84,10 @@ function Projects() {
               demo="https://alminha-final.netlify.app/"
             />
           </div>
+
+          <div class="col-12 col-md-6">
+    <Project image="./cartylitics.png "  title="Cartylitics | UAE" description="Cartylitics is a demo project inspired by Grofee, built to digitally transform supermarkets with services like app integration, catalog management, and marketing automation." demo="https://cartlytics.5waysfze.com/" />
+    </div>
           
 <div class="col-12 col-md-6">
     <Project image="./ortho.JPG"  title="ORTHOCARE WEBSITE" description="Replicated the frontend design of
@@ -115,7 +119,7 @@ and backend development." demo="https://dynamicportfolio.netlify.app/"  />    </
 
 
   </div>
-  {/* <Whatsapp/> */}
+  <Whatsapp/>
   <BackToTop/>
 <Footer/>
 </>

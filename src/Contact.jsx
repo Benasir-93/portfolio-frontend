@@ -9,7 +9,7 @@ import ThankYouModal from './components/ThankYouModal';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import BackToTop from './components/BackToTop';
-// import Whatsapp from './components/Whatsapp';
+import Whatsapp from './components/Whastapp';
 
 
 
@@ -133,7 +133,7 @@ function Contact() {
   
       {/* Thank You Modal */}
       <ThankYouModal show={showModal} onClose={handleCloseModal} onHome={handleHomeRedirect} />
-{/* <Whastapp/> */}
+<Whatsapp/>
   <BackToTop/>
   <Footer />
 </>
